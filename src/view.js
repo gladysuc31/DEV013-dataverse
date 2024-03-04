@@ -11,6 +11,7 @@ export const renderItems = (data) => {
     </li>
     `  
   })
-  const ul= '<ul>' + html + '</ul>';
+  const ul= `<ul>${html}</ul>`;
+  console.log(ul);
   return ul;
 };
